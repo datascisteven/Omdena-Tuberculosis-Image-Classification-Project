@@ -1,0 +1,72 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="wrapper-large">
+    <div class="page about">
+        <header class="header-home animated">
+            <a class="link" href="https://datascisteven.github.io/about">
+                <img class="selfie" alt="Steven Yan" src="assets/new_headshot.png"/>
+            </a>
+            <h1 class="title">About</h1>
+            <h2 class="description">Using my data science powers for social good</h2>
+            <div class="social-links">
+                <a class="link" data-title="medium.com/datascisteven" href="http://medium.com/datascisteven" target="_blank">
+                    <svg class="icon icon-medium">
+                        <use xlink:href="#icon-medium"></use>
+                    </svg>
+                </a>
+                <a class="link" data-title="linkedin.com/in/datascisteven" href="http://linkedin.com/in/datascisteven" target="_blank">
+                    <svg class="icon icon-linkedin">
+                        <use xlink:href="#icon-linkedin"></use>
+                    </svg>
+                </a>
+                <a class="link" data-title="github.com/datascisteven" href="https://github.com/datascisteven" target="_blank">
+                    <svg class="icon icon-github">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a class="link" data-title="datascisteven@gmail.com" href="mailto:datascisteven@gmail.com">
+                    <svg class="icon icon-mail">
+                        <use xlink:href="#icon-mail"></use>
+                    </svg>
+                </a>
+            </div>
+        </header>
+                              <nav class="nav">
+            <ul class="list">
+                <li class="item">
+                    <a class="link" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="{{ url_for('faq') }}">FAQ</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="{{ url_for('prevention') }}">Prevention</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="{{ url_for('testing') }}">Testing</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="{{ url_for('treatment') }}">Treatment</a>
+                </li>
+                <li class="'item">
+                    <a class="link" href="{{ url_for('submit') }}">Submit</a>
+            </ul>
+        </nav>
+    
+        <p>The treatment of tuberculosis (TB) typically involves a combination of antibiotics taken over several months to effectively eliminate the bacteria causing the infection. Key treatment options include:</p>
+        <ol>
+            <li>Isoniazid: An important first-line drug that targets the TB bacteria's growth and replication.</li>
+            <li>Rifampin (Rifampicin): Another first-line drug that works by inhibiting bacterial RNA synthesis.</li>
+            <li>Pyrazinamide: This drug is often used in the initial phase of treatment to rapidly reduce bacterial populations.</li>
+            <li>Ethambutol: Used alongside other drugs to prevent the development of resistance.</li>
+            <li>Streptomycin: Typically used in combination with other drugs for severe cases.</li>
+            <li>Directly Observed Therapy (DOT): Ensuring patients take their medication under supervision, improving treatment adherence.</li>
+            <li>Combination Therapy: TB treatment usually involves a combination of multiple drugs to prevent the development of drug resistance and increase efficacy.</li>
+            <li>Long Treatment Duration: TB treatment courses can last for several months, ranging from 6 to 9 months or even longer.</li>
+        </ol>
+
+        <p>It's important to follow the prescribed treatment plan diligently and complete the full course of antibiotics to ensure effective eradication of the bacteria and prevent the development of drug-resistant strains. The choice of treatment regimen may vary based on factors like drug resistance patterns and the presence of other health conditions.</p>
+        
+    </div>
+</div>
+{% endblock %}

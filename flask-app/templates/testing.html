@@ -1,0 +1,68 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="wrapper-large">
+    <div class="page about">
+        <header class="header-home animated">
+            <a class="link" href="https://datascisteven.github.io/about">
+                <img class="selfie" alt="Steven Yan" src="assets/new_headshot.png"/>
+            </a>
+            <h1 class="title">About </h1>
+            <h2 class="description">Using my data science powers for social good</h2>
+            <div class="social-links">
+                <a class="link" data-title="medium.com/datascisteven" href="http://medium.com/datascisteven" target="_blank">
+                    <svg class="icon icon-medium">
+                        <use xlink:href="#icon-medium"></use>
+                    </svg>
+                </a>
+                <a class="link" data-title="linkedin.com/in/datascisteven" href="http://linkedin.com/in/datascisteven" target="_blank">
+                    <svg class="icon icon-linkedin">
+                        <use xlink:href="#icon-linkedin"></use>
+                    </svg>
+                </a>
+                <a class="link" data-title="github.com/datascisteven" href="https://github.com/datascisteven" target="_blank">
+                    <svg class="icon icon-github">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a class="link" data-title="datascisteven@gmail.com" href="mailto:datascisteven@gmail.com">
+                    <svg class="icon icon-mail">
+                        <use xlink:href="#icon-mail"></use>
+                    </svg>
+                </a>
+            </div>
+        </header>
+                        <nav class="nav">
+            <ul class="list">
+                <li class="item">
+                    <a class="link" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="{{ url_for('faq') }}">FAQ</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="{{ url_for('prevention') }}">Prevention</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="{{ url_for('treatment') }}">Treatment</a>
+                </li>
+                <li class="'item">
+                    <a class="link" href="{{ url_for('submit') }}">Submit</a>
+            </ul>
+        </nav>
+    
+        <p>My desire to have positive societal impact, as well as being of service, contributing back to my communities, is the one constant or “y-intercept” in the multiple linear regression analysis of my variegated professional and extracurricular endeavors. With over a decade of experience in education management, my bootcamp experience has lit a passion for gaining insight from raw data, finding impactful solutions for problems with impact for social good. (From my LinkedIn)</p> 
+
+        <p>To that end, I have pursued extracurricular activities that reinforce my desire to be a service to others and collaborate and network with like-minded people to engender a sense of community such as my time serving as a Big Brother at the Incarnation Children's Center, HIV Community Educator for GMHC or serving as the Nominating Committee Chair for the UChicago LGBT alumni board.</p>
+
+        <p>Most clients come to me when most options have been exhausted and need some guidance to get over the hurdle of the MCAT to get into medical school. Each required a different mix of critical thinking, problem solving, and analytical skills to decipher what is his or her particular impasse by evaluating both test data and the thought process during our live sessions to develop an individualized plan of action. As the project progresses, it is essential that I maintain adaptability in constantly adjusting the curriculum and my teaching style based on our work together in the sessions with the goal of instilling an intuitive understanding of the college sciences to achieve an optimal test score.</p>
+
+        <p>Developing content for different organizations has allowed me to hone in my writing and editing skills, as well as my written communication skills. Delivering lectures and working with students 1-on-1 requires that I maintain effective verbal communication skills. Working with diverse populations including underrepresented populations and my own upbringing has provided me cultural competence and insight into how to interact with different cultures. As an educator, I will always remain open-minded and an active learner in my transition from education management and consulting to data science.</p>
+
+        <p>It is with the same passion that I make my foray into the data science realm, bringing the skills I have acquired through my experiences in management, classroom instruction, training and development, program administration, career advising, and content writing and editing.</p>
+    </div>
+</div>
+
+{% endblock %}
