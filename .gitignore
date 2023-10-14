@@ -164,12 +164,12 @@ notebooks/
 flask/
 flask-app/
 old_data/
+data/augmented_sorted/
+
 data/original_sorted/
 data/augmentations/
-**/
 utils.py
+logs/
 
-*.zip
-*.txt
-*.hdf5
-*.h5
+
+
