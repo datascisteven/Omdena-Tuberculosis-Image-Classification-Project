@@ -39,16 +39,16 @@ Tuberculosis:
 	│
 	├── _data
 	│   ├── augmented_sorted		<- CXR images sorted by train/val/test including augmentations
-	│   ├── MTG_ClinicalReadings		<- clinical readings in NLH Dataset for EDA
+	│   ├── MTG_ClinicalReadings	<- clinical readings in NLH Dataset for EDA
 	│   └── SHZ_ClinicalReadings
 	│
-    	├── _flask_app				<- (soon) Flask application for deployment
-    	│
-    	├── _images
+    ├── _flask_app				<- (soon) Flask application for deployment
+    │
+    ├── _images
    	│
-	├── _reference 
-    	│    
-    	└── Final_Notebook.ipynb
+	├── _references 
+    │    
+    └── Final_Notebook.ipynb
 
 
 ## Contact Information:
