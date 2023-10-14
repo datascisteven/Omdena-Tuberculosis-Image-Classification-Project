@@ -87,8 +87,8 @@ def treatment():
 def submit():
     return render_template('submit.html')
 
-@app.route('/predict', methods=['GET', 'POST'])
-def predict():
+@app.route('/upload', methods=['GET', 'POST'])
+def upload():
     if request.method == 'POST':
         # Get the image from post request
         img = base64_to_pil(request.json)

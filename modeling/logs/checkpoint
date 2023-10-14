@@ -1,2 +1,0 @@
-model_checkpoint_path: "log_densenet"
-all_model_checkpoint_paths: "log_densenet"
