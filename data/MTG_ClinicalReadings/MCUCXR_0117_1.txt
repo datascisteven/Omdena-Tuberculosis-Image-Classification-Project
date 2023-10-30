@@ -1,4 +1,0 @@
-Patient's Sex: F 
-Patient's Age: 085Y
-stable CXR since 6M; off Rx since 6M (same pt as MCUCXR_0113_1)
-
