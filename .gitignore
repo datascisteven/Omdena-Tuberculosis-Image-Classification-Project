@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 **/.DS_Store/
-notebooks/
+old_notebooks/
 flask/
 flask-app/
 old_data/
@@ -170,6 +170,7 @@ data/original_sorted/
 data/augmentations/
 utils.py
 logs/
+gh-pages/
 
 
 
