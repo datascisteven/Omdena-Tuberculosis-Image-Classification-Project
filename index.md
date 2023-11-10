@@ -256,8 +256,8 @@ Rahman, T., Khandakar, A., Kadir, M.A., Islam, K.R., Islam, K.F., Mazhar, R., Ha
 
 ## Contact Information:
 
-### <img src="images/mail_icon.png"> **Email:** [stevenyan@uchicago.edu](mailto:steven.yan@uchicago.edu)
+<img src="images/mail_icon.png" width="25"> **Email:** [stevenyan@uchicago.edu](mailto:steven.yan@uchicago.edu)
 
-### <img src="images/linkedin_icon.png"> **LinkedIn:** [https://www.linkedin.com/in/datascisteven](https://www.linkedin.com/in/datascisteven)
+<img src="images/linkedin_icon.png" width="25"> **LinkedIn:** [https://www.linkedin.com/in/datascisteven](https://www.linkedin.com/in/datascisteven)
 
-### <img src="images/github_icon.png"> **Github:** [https://www.github.com/datascisteven](https://www.github.com/datascisteven)
+<img src="images/github_icon.png" width="25"> **Github:** [https://www.github.com/datascisteven](https://www.github.com/datascisteven)
